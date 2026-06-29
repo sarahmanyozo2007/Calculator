@@ -35,3 +35,12 @@ body{
     grid-template-columns:repeat(4,1fr);
     gap:10px;
 }
+.button-container button{
+    width:60px;
+    height:50px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
