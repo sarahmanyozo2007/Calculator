@@ -22,3 +22,11 @@ body{
     font-size:2rem;
     margin-bottom:20px;
 }
+#display{
+    width:280px;
+    height:45px;
+    border:none;
+    margin-bottom:20px;
+    padding-left:10px;
+    font-size:20px;
+}
