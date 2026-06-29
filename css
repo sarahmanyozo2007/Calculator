@@ -44,3 +44,7 @@ body{
     cursor:pointer;
     transition:.3s;
 }
+.button-container button:hover{
+    background-color:#365d7ee8;
+    color:white;
+}
