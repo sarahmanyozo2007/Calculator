@@ -4,3 +4,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color:#e5e5e5;
 }
+.calculator-section{
+    display:flex;
+    justify-content:center;
+    margin-top:80px;
+}
