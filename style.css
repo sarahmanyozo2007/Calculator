@@ -17,6 +17,20 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
+.calculator-wrapper{
+    width:360px;
+}
+
+.button-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+
+.button-container button{
+    width:70px;
+    height:50px;
+}
 }
 .logo{
     font-size:2rem;

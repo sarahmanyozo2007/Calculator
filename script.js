@@ -18,5 +18,20 @@ function calculate(){
     catch{
         display.value = "Error";
     }
+function squareRoot(){
+    display.value = Math.sqrt(eval(display.value));
+}
+
+function sinValue(){
+    display.value = Math.sin(eval(display.value) * Math.PI / 180);
+}
+
+function cosValue(){
+    display.value = Math.cos(eval(display.value) * Math.PI / 180);
+}
+
+function tanValue(){
+    display.value = Math.tan(eval(display.value) * Math.PI / 180);
+}
 
 }
